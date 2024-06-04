@@ -17,7 +17,7 @@
         <div class="social-icon"><img src="assets/github-light.svg" alt="github icon"></div>
     </div>
     -->
-    <div class="main">
+    <div class="main section">
         <nav class="navbar">
             <div class="logo-wrapper">
                 <img class="logo" src="assets/janpanz.jpeg" alt="Photo of me">
@@ -36,8 +36,8 @@
             </div>
         </nav>
         <div class="hero">
-            <div class="headline-holder">
-                <h1 class="headline-main">What shall we build <br>together</h1>
+            <div class="decorative-holder center">
+                <h1 class="headline-main decorative-typography">What shall we build <br>together</h1>
             </div>
             <div class="hero-cards">
                 <div class="card first">
@@ -55,9 +55,54 @@
             </div>
         </div>
     </div>
-    <div class="about-me"></div>
-    <div class="work"></div>
-    <div class="contact"></div>
-    <footer></footer>
+    <div class="about-me section">
+        <div class="decorative-holder right">
+            <h2 class="headline-second decorative-typography right">About<br>me</h2>
+        </div>
+        <div class="about-me-holder">
+            <img src="assets/janpanz.jpeg" alt="Picture of me">
+            <p>I’m Honza, web designer and developer from Czech Republic. I craft designs and develop solutions with great precision and care for performance and optimisation for user-experience.</p>
+            <button>Full CV</button>
+        </div>
+    </div>
+    <div class="my-work section">
+        <div class="secondary-holder bordered">
+            <div class="decorative-holder left">
+                <h2 class="headline-second decorative-typography left">My<br>work</h2>
+                <span class="tagline decorative-typography small">Case studies and whatnot</span>
+            </div>
+        </div>
+    </div>
+    <div class="contact-me section">
+        <div class="secondary-holder">
+            <div class="decorative-holder right">
+                <h2 class="headline-second decorative-typography right">Contact<br>me</h2>
+                <span class="tagline decorative-typography small">So we can be friends</span>
+            </div>
+            <form class="form" action="">
+                <label for="name">Your name:</label><input id="name" type="text" name="name" placeholder="Your name">
+                <label for="email">Your email:</label><input id="email" type="text" name="email" placeholder="Your email">
+                <label for="message">Your message:</label><textarea id="message" name="message" placeholder="Your message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="secondary-holder bordered">
+            <div class="decorative-holder left">
+                <h2 class="headline-second decorative-typography left">Get in touch</h2>
+                <div class="contact-holder">
+                    <div class="footer-info-holder"><p class="tagline decorative-typography small">Jan Panzenberger</p></div>
+                    <div class="footer-info-holder"><img src="assets/mail-icon-small.svg" alt="icon of a mail envelope"><p class="tagline decorative-typography small">jan@panzenberger.cz</p></div>
+                    <div class="footer-info-holder"><img src="assets/telephone-icon-small.svg" alt="icon of a telephone envelope"><p class="tagline decorative-typography small">+420 730 431 691</p></div>
+                </div>
+            </div>
+            <div class="social-holder">
+                <img src="assets/linkedin-icon-small.svg" alt="linkedin icon">
+                <img src="assets/leetcode-icon-small.svg" alt="leetcode icon">
+                <img src="assets/github-icon-small.svg" alt="leetcode icon">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
