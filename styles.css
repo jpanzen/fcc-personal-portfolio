@@ -2,6 +2,8 @@
     --dark-gray: #2B2B2B;
     --medium-gray: #B9B9B9;
     --background-gray: #f0f0f0;
+    --font-light: #E9E9E9;
+    --border: #D9D9D9;
     font-family: "Inter", sans-serif;
     margin: 0;
 }
@@ -19,6 +21,10 @@ body{
 }
 .social-icon{
     width: 16px;
+}
+.main{
+    padding-bottom: 60px;
+    border-bottom: solid 1px var(--border);
 }
 .logo{
     width: 48px;
@@ -79,6 +85,7 @@ body{
     font-family: Anton;
     text-align: center;
     font-size: 72px;
+    line-height: 100%;
     text-transform: uppercase;
     background: radial-gradient(circle farthest-side at left top, hsl(0, 0%, 17%) 0%, hsl(0, 0%, 56%) 100%);
     width: fit-content;
@@ -95,4 +102,31 @@ body{
 .card{
     background: gray;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 30px;
+    border-radius: 20px;
+    color: var(--font-light);
+    gap: 10px;
+}
+.card h2{
+    font-weight: normal;
+    font-size: 24px;
+}
+.second{
+    width: 40%;
+}
+.first, .third{
+    width: 25%;
+}
+.first{
+    background: radial-gradient(circle at top right, rgba(186, 186, 186, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.second{
+    background: radial-gradient(circle at top, rgba(186, 186, 186, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.third{
+    background: radial-gradient(circle at top left, rgba(186, 186, 186, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
